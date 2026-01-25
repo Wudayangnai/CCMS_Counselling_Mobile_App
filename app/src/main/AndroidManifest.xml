@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -15,10 +17,10 @@
             android:name=".ActivityRegister"
             android:exported="false" />
         <activity
-            android:name=".ActivityLogin"
+            android:name=".ActivityAppointmentBooking"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".ActivityLogin"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

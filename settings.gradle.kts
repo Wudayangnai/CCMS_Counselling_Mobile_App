@@ -8,9 +8,11 @@ pluginManagement {
             }
         }
         mavenCentral()
+        google()
         gradlePluginPortal()
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -21,4 +23,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "CCMS_Counselling_Mobile_Application"
 include(":app")
+
  

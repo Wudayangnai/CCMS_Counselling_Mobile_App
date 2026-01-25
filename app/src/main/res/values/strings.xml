@@ -6,4 +6,8 @@
     <string name="get_start">Get Start</string>
     <string name="app_logo">App logo</string>
     <string name="login">Login</string>
+    <string name="create_account">Create account</string>
+    <string name="full_name">Full name</string>
+    <string name="email">Email</string>
+    <string name="register">Register</string>
 </resources>
